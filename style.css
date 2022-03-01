@@ -1,38 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #27292A;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+  background-color: #27292a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
+.corletras1 {
+  color: #c1c1c2;
+  border-radius: 10px;
+}
 
-  .corletras1 {
-    color: #C1C1C2;
-    border-radius: 10px;
-  }
+.titulos1 {
+  color: #fcff5c;
+}
 
-  .titulos1 {
-    color: #FCFF5C;
-  }
+/*definido a foto do perfil redonda */
+.imagemperfil {
+  border-radius: 50%;
+}
 
-  .imagemperfil {
-    border-radius: 50%;
-  }
+/*a ultima imagem foi def. 100% da pag, altura max de 450px e distância de cima 100px */
+.imagemfinal {
+  height: 450px;
+  padding-top: 100px;
+}
 
-  .imagemfinal {
-      height: 450px;
-      padding-top: 100px;
-  }
-
-  .h1 {
-      text-align: center;
-      padding-top: 50px;
-      padding-bottom: 30px;
-  }
+/*alinhar o h1 no centro com espaçamento entre o topo é embaixo*/
+.h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
