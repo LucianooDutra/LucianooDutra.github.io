@@ -15,26 +15,60 @@ a {
 .corletras1 {
   color: #c1c1c2;
   border-radius: 10px;
+  margin-left: 60px;
+  line-height: 25px;
 }
 
 .titulos1 {
   color: #fcff5c;
+  margin-left: 40px;
+  margin-top: 25px;
 }
 
 /*definido a foto do perfil redonda */
+/*position: absolute pra mudar somente ela sem ser a div por completo*/
 .imagemperfil {
   border-radius: 50%;
+  float: left;
+  border: 3px double #fcff5c;
+  position: absolute;
+  left: 20px;
 }
 
 /*a ultima imagem foi def. 100% da pag, altura max de 450px e distância de cima 100px */
 .imagemfinal {
-  height: 450px;
+  height: 400px;
   padding-top: 100px;
 }
 
-/*alinhar o h1 no centro com espaçamento entre o topo é embaixo*/
+/*alinhar o h1 no centro com espaçamento entre o topo e embaixo*/
 .h1 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
+}
+
+/*um pouco sobre mim + paragrafo*/
+/*position: absolute pra mudar somente ela sem ser a div por completo*/
+.descrição {
+  width: 50%;
+  text-align: left;
+  margin-top: 40px;
+  position: absolute;
+  left: 400px;
+}
+
+/*bloco completo, imagem perfil + um pouco sobre mim + paragrafo*/
+/*position relative pra quando mudar não ser a div completa, ela fica intacta*/
+.imagemdescrição {
+  height: 400px;
+  position: relative;
+
+}
+
+/*somente o paragrafo da descrição*/
+.descriçãoparagrafo {
+  font-style: italic;
+  line-height: 25px;
+  margin-top: 20px;
 }
